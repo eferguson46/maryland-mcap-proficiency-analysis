@@ -60,9 +60,3 @@ Python was used for data preparation, visualization, and statistical analysis, w
 The analysis uses publicly available Maryland public school data from 2023–2025, including Math MCAP results, ELA MCAP results, school attendance, and student characteristics. The original source files are included in `data/raw/`, organized by year.
 
 Additional information about data preparation, assessment suppression, modeling decisions, and limitations is provided in the project report and notebooks.
-
-Data Sources
-
-The analysis uses publicly available Maryland public school data from 2023–2025, including Math MCAP results, ELA MCAP results, school attendance, and student characteristics. The original source files are included in data/raw/, organized by year.
-
-Additional information about data preparation, assessment suppression, modeling decisions, and limitations is provided in the project report and notebooks.
