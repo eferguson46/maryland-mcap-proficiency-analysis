@@ -22,7 +22,7 @@ These findings describe associations rather than causal relationships. Grade-lev
 ## Interactive Power BI Dashboard
 An interactive Power BI dashboard was developed to complement the analysis, allowing users to explore MCAP proficiency across years, grades, subjects, and school districts.  
 
-The dashboard includes two line charts showing proficiency by grade and trends from 2023-2025, a scatterplot examining relationships between proficiency and selected school characteristics, and summary metrics for average proficiency and the number of schools represented. Users can apply filters and select different school characteristics to explore patterns in the data.
+The dashboard includes two line charts showing proficiency by grade and trends from 2023–2025, a scatterplot examining relationships between proficiency and selected school characteristics, and summary metrics for average proficiency and the number of schools represented. Users can apply filters and select different school characteristics to explore patterns in the data.
 
 ![Power BI Dashboard Overview](dashboard/screenshots/dashboard_overview.png)
 
