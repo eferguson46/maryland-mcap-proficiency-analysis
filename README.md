@@ -19,10 +19,28 @@ These findings describe associations rather than causal relationships. Grade-lev
 
 📄 [**Read the full project report (PDF)**](Maryland_MCAP_Analysis_Report.pdf)
 
+## Interactive Power BI Dashboard
+An interactive Power BI dashboard was developed to complement the analysis, allowing users to explore MCAP proficiency across years, grades, subjects, and school districts.  
+
+The dashboard includes two line charts showing proficiency by grade and trends from 2023-2025, a scatterplot examining relationships between proficiency and selected school characteristics, and summary metrics for average proficiency and the number of schools represented. Users can apply filters and select different school characteristics to explore patterns in the data.
+
+*Overview of MCAP proficiency by grade, year, and subject, with chronic absenteeism selected as the school characteristic* 
+
+*Example showing 2025 Grade 5 Math results for Howard County, with FARMS selected as the school characteristic.*
+
+📊 Download the interactive Power BI dashboard (.pbix)
+
+The dashboard can be opened in Power BI Desktop. Average proficiency is calculated as an unweighted average of school-grade-subject observations. Some filter combinations may produce an empty scatterplot when the selected school characteristic has no available numeric values.
+
 ## Repository Structure
 
 ```text
 .
+├── dashboard/
+│   ├── Maryland_MCAP_Dashboard.pbix
+│   └── screenshots/
+│       ├── dashboard_overview.png
+│       └── dashboard_filtered.png
 ├── data/
 │   ├── raw/
 │   │   ├── 2023/
@@ -49,11 +67,11 @@ These findings describe associations rather than causal relationships. Grade-lev
 └── README.md
 ```
 
-The four notebooks document the analysis workflow, from preparing the source data and integrating the datasets using SQL to exploratory analysis and regression modeling. The `data/` directory contains the original and processed datasets, while `figures/` contains the visualizations used in the report.
+The four notebooks document the analysis workflow, from preparing the source data and integrating the datasets using SQL to exploratory analysis and regression modeling. The `data/` directory contains the original and processed datasets, while `figures/` contains the visualizations used in the report. The dashboard/ directory contains the interactive Power BI dashboard and screenshots demonstrating its functionality.
 
 ## Tools and Methods
 
-Python was used for data preparation, visualization, and statistical analysis, while SQL (SQLite) was used to integrate the cleaned datasets. The analysis included exploratory data analysis, correlation analysis, and ordinary least squares (OLS) regression.
+Python was used for data preparation, visualization, and statistical analysis, while SQL (SQLite) was used to integrate the cleaned datasets. The analysis included exploratory data analysis, correlation analysis, and ordinary least squares (OLS) regression. Power BI was used to develop an interactive dashboard for exploring MCAP proficiency trends and relationships with school characteristics.
 
 ## Data Sources
 
