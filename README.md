@@ -24,11 +24,15 @@ An interactive Power BI dashboard was developed to complement the analysis, allo
 
 The dashboard includes two line charts showing proficiency by grade and trends from 2023-2025, a scatterplot examining relationships between proficiency and selected school characteristics, and summary metrics for average proficiency and the number of schools represented. Users can apply filters and select different school characteristics to explore patterns in the data.
 
-*Overview of MCAP proficiency by grade, year, and subject, with chronic absenteeism selected as the school characteristic* 
+![Power BI Dashboard Overview](dashboard/screenshots/dashboard_overview.png)
+
+*Overview of MCAP proficiency by grade, year, and subject, with chronic absenteeism selected as the school characteristic.*
+
+![Power BI Dashboard with Filters Applied](dashboard/screenshots/dashboard_filtered.png)
 
 *Example showing 2025 Grade 5 Math results for Howard County, with FARMS selected as the school characteristic.*
 
-📊 Download the interactive Power BI dashboard (.pbix)
+📊 [**Download the interactive Power BI dashboard (.pbix)**](dashboard/Maryland_MCAP_Dashboard.pbix)
 
 The dashboard can be opened in Power BI Desktop. Average proficiency is calculated as an unweighted average of school-grade-subject observations. Some filter combinations may produce an empty scatterplot when the selected school characteristic has no available numeric values.
 
@@ -67,7 +71,7 @@ The dashboard can be opened in Power BI Desktop. Average proficiency is calculat
 └── README.md
 ```
 
-The four notebooks document the analysis workflow, from preparing the source data and integrating the datasets using SQL to exploratory analysis and regression modeling. The `data/` directory contains the original and processed datasets, while `figures/` contains the visualizations used in the report. The dashboard/ directory contains the interactive Power BI dashboard and screenshots demonstrating its functionality.
+The four notebooks document the analysis workflow, from preparing the source data and integrating the datasets using SQL to exploratory analysis and regression modeling. The `data/` directory contains the original and processed datasets, while `figures/` contains the visualizations used in the report. The `dashboard/` directory contains the interactive Power BI dashboard and screenshots demonstrating its functionality.
 
 ## Tools and Methods
 
