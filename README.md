@@ -17,7 +17,7 @@ These findings describe associations rather than causal relationships. Grade-lev
 
 *Mean Math and ELA MCAP proficiency by grade, 2023–2025.*
 
-📄 [**Read the full project report (PDF)**](Maryland_MCAP_Analysis_Report.pdf)
+📄 [**Read the full project report (PDF)**](MCAP_Analysis_Report.pdf)
 
 ## Interactive Power BI Dashboard
 An interactive Power BI dashboard was developed to complement the analysis, allowing users to explore MCAP proficiency across years, grades, subjects, and school districts.  
@@ -67,7 +67,7 @@ The dashboard can be opened in Power BI Desktop. Average proficiency is calculat
 │   ├── 03_exploratory_data_analysis.ipynb
 │   └── 04_regression_analysis.ipynb
 ├── .gitignore
-├── Maryland_MCAP_Analysis_Report.pdf
+├── MCAP_Analysis_Report.pdf
 └── README.md
 ```
 
